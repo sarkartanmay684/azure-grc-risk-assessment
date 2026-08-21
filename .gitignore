@@ -1,0 +1,43 @@
+# Credentials and connection files — never commit
+*.rdp
+*.pem
+*.key
+*.pfx
+*.p12
+*.publishsettings
+*.pubxml
+.env
+.env.*
+credentials
+credentials.*
+secrets.*
+azureProfile.json
+*.azureProfile
+
+# Azure CLI / PowerShell local state
+.azure/
+.azure-*
+*.azcli.log
+AzureRM.Profile.json
+tokens.json
+accessTokens.json
+
+# Terraform / IaC state (can embed subscription IDs, keys, IPs)
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+*.bicepparam
+
+# Unredacted evidence — staging area for raw captures
+screenshots/raw/
+screenshots/unredacted/
+*-unredacted.*
+*-raw.png
+
+# Office and OS noise
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
