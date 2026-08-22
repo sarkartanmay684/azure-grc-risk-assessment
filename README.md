@@ -131,8 +131,8 @@ Framework identifiers follow **NIST CSF 1.1**, matching the assessment brief. Un
 ```
 ├── README.md                              this page
 ├── docs/
-│   └── Cloud-Security-Risk-Assessment-    the full 40-page assessment: walkthrough,
-│       GRC-Simulation-Azure-Github.pdf    evidence, risk register, controls, report
+│   └── Cloud-Security-Risk-Assessment-    the full 38-page assessment: walkthrough,
+│       GRC-Simulation-Azure.pdf           evidence, risk register, controls, report
 ├── artifacts/
 │   ├── asset-inventory.csv                assets with CIA ratings
 │   ├── threat-vulnerability-summary.csv   threat ↔ vulnerability pairing
