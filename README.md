@@ -4,6 +4,8 @@ A governance, risk and compliance (GRC) assessment of a single internet-exposed 
 
 The assessment is **non-exploitative**. Nothing was attacked or exploited — findings come from configuration review and native logging, which is how a real GRC or audit function works.
 
+**→ [Read the full assessment (40 pages, PDF)](docs/Cloud-Security-Risk-Assessment-GRC-Simulation-Azure-Github.pdf)** — the complete walkthrough, evidence, risk register, control mapping and report in a single document. Everything below is a summary of it.
+
 ---
 
 ## Headline finding
@@ -129,9 +131,8 @@ Framework identifiers follow **NIST CSF 1.1**, matching the assessment brief. Un
 ```
 ├── README.md                              this page
 ├── docs/
-│   ├── Risk-Assessment-Report.pdf         the formal GRC deliverable
-│   ├── Risk-Assessment-Report.docx        editable source
-│   └── lab-walkthrough.md                 build + evidence collection, with screenshots
+│   └── Cloud-Security-Risk-Assessment-    the full 40-page assessment: walkthrough,
+│       GRC-Simulation-Azure-Github.pdf    evidence, risk register, controls, report
 ├── artifacts/
 │   ├── asset-inventory.csv                assets with CIA ratings
 │   ├── threat-vulnerability-summary.csv   threat ↔ vulnerability pairing
