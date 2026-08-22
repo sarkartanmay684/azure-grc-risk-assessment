@@ -4,7 +4,7 @@ A governance, risk and compliance (GRC) assessment of a single internet-exposed 
 
 The assessment is **non-exploitative**. Nothing was attacked or exploited — findings come from configuration review and native logging, which is how a real GRC or audit function works.
 
-**→ [Read the full assessment (40 pages, PDF)](docs/Cloud-Security-Risk-Assessment-GRC-Simulation-Azure-Github.pdf)** — the complete walkthrough, evidence, risk register, control mapping and report in a single document. Everything below is a summary of it.
+**→ [Read the full assessment (40 pages, PDF)](docs/Cloud-Security-Risk-Assessment-GRC-Simulation-Azure.pdf)** — the complete walkthrough, evidence, risk register, control mapping and report in a single document. Everything below is a summary of it.
 
 ---
 
